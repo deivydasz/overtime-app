@@ -3,9 +3,9 @@
 ## Key requirement: company needs documentation that salaried employees did or did not get overtime each week
 
 ## Models
-- Post -> date:date rationale:text
-- X User -> Devise
-- X AdminUser -> Single table ingeritance
+- x Post -> date:date rationale:text
+- x User -> Devise
+- x AdminUser -> Single table ingeritance
 
 ## Features:
 - Approval Workflow
