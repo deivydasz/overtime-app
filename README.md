@@ -5,7 +5,7 @@
 ## Models
 - Post -> date:date rationale:text
 x User -> Devise
-- AdminUser -> STI
+- AdminUser -> Single table ingeritance
 
 ## Features:
 - Approval Workflow
