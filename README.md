@@ -4,8 +4,8 @@
 
 ## Models
 - Post -> date:date rationale:text
-x User -> Devise
-x AdminUser -> Single table ingeritance
+- X User -> Devise
+- X AdminUser -> Single table ingeritance
 
 ## Features:
 - Approval Workflow
@@ -16,3 +16,6 @@ x AdminUser -> Single table ingeritance
 
 ## UI:
 - Bootstrap -> formatting
+
+## Refactor TODOS:
+-Refactor user association integration test in post_spec
