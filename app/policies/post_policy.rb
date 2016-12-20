@@ -5,3 +5,6 @@ class PostPolicy <ApplicationPolicy
 	end
 
 end
+
+
+	
