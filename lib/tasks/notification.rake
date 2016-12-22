@@ -5,10 +5,6 @@ namespace :notification do
   	# 2. Iterate over all employees
   	# 3. Skip AdminUsers
   	# 4. Send a message that has instructions and a link to log time
-
-  	# No spaces or dashes
-  	# Exaclty 10 characters
-  	# all characters have to be number
   end
 
 end
