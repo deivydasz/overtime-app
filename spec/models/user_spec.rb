@@ -9,14 +9,23 @@ RSpec.describe User, type: :model do
 			expect(@user).to be_valid
 		end
 
-		it "cannot be created wihout first_name, last_name" do
+		it "cannot be created wihout first_name" do
 			@user.first_name = nil
+			expect(@user).to_not be_valid
+		end
+
+		it "cannot be created wihout last_name" do
 			@user.last_name = nil
+			expect(@user).to_not be_valid
+		end
+
+		it "cannot be created wihout phone" do
+			@user.phone = nil
 			expect(@user).to_not be_valid
 		end
 	end
 
-	describe "custome name methods" do
+	describe "custom name methods" do
 		it 'has a full_name method that combines first and last name' do
 			expect(@user.full_name).to eq("SNOW, JON")
 		end
