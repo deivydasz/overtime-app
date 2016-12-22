@@ -21,6 +21,12 @@
 - x Icons from glyphicons
 - x Update the styles for forms
 
+## TODOS:
+- Integrate validation for phone attr in User:
+	# No spaces or dashes
+	# all characters have to be number
+	# Exaclty 10 characters
+
 ## Refactor TODOS:
 - x Add full_name method to users
 - x Refactor user association integration test in post_spec
