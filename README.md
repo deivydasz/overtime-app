@@ -22,10 +22,10 @@
 - x Update the styles for forms
 
 ## TODOS:
-- Integrate validation for phone attr in User:
-	# No spaces or dashes
-	# all characters have to be number
-	# Exaclty 10 characters
+- x Integrate validation for phone attr in User:
+	# x No spaces or dashes
+	# x all characters have to be number
+	# x Exaclty 10 characters
 
 ## Refactor TODOS:
 - x Add full_name method to users
