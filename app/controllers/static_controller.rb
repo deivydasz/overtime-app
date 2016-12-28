@@ -6,7 +6,7 @@ class StaticController < ApplicationController
 			@recent_audit_items = AuditLog.last(10)
 		else
 			# TODO Fix scope
-			@pending_audit_confirmations = current_user.audit_logs.pending
+			@pending_audit_confirmations = current_user.audit_logs.pending.by_start_date
 		end
 	end
 	
