@@ -16,7 +16,7 @@
 - Email summary to managers for approval
 - x Needs to be documented if employee did not log overtime
 - x Create audit log for each text message
-- Need to update end_date when confirmed
+- x Need to update end_date when confirmed
 - Need to update audit log status when overtime rejected
 - x Home icon
 - Update buttons on employee homepage so they show on mobile
@@ -26,6 +26,7 @@
 - Fix admin dashboard bug
 - Implement Honeybadger error reporting
 - Imlement new relic for keeping site alive
+- Check on data issue and verify correct hours are being tracked 
 
 ## UI:
 - x Bootstrap -> formatting
