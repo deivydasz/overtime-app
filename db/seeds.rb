@@ -30,7 +30,7 @@ puts "3 Audit logs have been created"
 	Post.create!(date: Date.today, rationale: "#{post} Tote bag hot chicken echo park irony mumblecore blue bottle
 	 raw denim prism slow-carb. Pinterest ennui trust fund drinking vinegar, normcore tumeric whatever jianbing kogi 
 	 activated charcoal. Celiac gochujang bicycle rights cardigan, everyday carry umami ethical stumptown migas helvetica 
-	 pinterest iPhone yuccie. Literally viral cardigan enamel pin whatever", user_id: @employee.id, overtime_request: 2.5)
+	 pinterest iPhone yuccie. Literally viral cardigan enamel pin whatever", user_id: @employee.id, daily_hours: 12.5)
 end
 puts "20 Posts have been created"
 
