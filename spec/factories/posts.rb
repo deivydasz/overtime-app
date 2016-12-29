@@ -2,7 +2,7 @@ FactoryGirl.define do
 
 	factory :post do 
 		date Date.today
-		work_performed "workperformed"
+		work_performed "WorkPerformed"
  		daily_hours 12.5
 		user
 	end
