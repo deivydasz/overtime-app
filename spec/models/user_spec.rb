@@ -30,13 +30,33 @@ RSpec.describe User, type: :model do
 			expect(@user).to_not be_valid
 		end
 
-		it 'requires the phone attr to onlye contain integers' do 
+		it 'requires the phone attr to only contain integers' do 
 			@user.phone = "mygreatstr"
 			expect(@user).to_not be_valid
 		end
 
-		it 'requries the phone attr to only have 10 chars' do 
+		it 'requries the phone attr to only have 9 hars' do 
 			@user.phone = "12345678901"
+			expect(@user).to_not be_valid
+		end
+
+		it 'requries the ssn' do 
+			@user.ssn = nil
+			expect(@user).to_not be_valid
+		end
+
+		it 'requries a company' do 
+			@user.company = nil
+			expect(@user).to_not be_valid
+		end
+
+		it 'requires the ssn attr to only contain integers' do 
+			@user.ssn = "mygreatstr"
+			expect(@user).to_not be_valid
+		end
+
+		it 'requries the ssn attr to only have 4 hars' do 
+			@user.ssn = "12345"
 			expect(@user).to_not be_valid
 		end
 	end
